@@ -1,0 +1,126 @@
+<style>
+	#wrapper{
+		--height: 200%;
+	}
+	#header {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 55px;
+		display: table;
+		table-layout: fixed;
+		border-bottom: 1px solid white;
+		z-index: 100;
+	}
+	#header-cell{
+		text-align: center;
+		vertical-align: middle;
+		display: table-cell;
+		background-color: #008348;
+		color: white;
+		font-weight: bold;
+		font-family: sans-serif
+		width: auto;
+	}
+
+	#contents {
+		position: relative;
+		top: 55px;
+		display: table;
+		left: 0px;
+		width: 100%;
+		height: calc(100% - 100px);
+	}
+	section {
+		position: relative;
+		display: table-cell;
+		width: 90%;
+		height: 100%;
+	}
+	#content-frame{
+		--border: 1px solid;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f2f2f1;
+	}
+	#content{
+		width: 80%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	aside {
+		position: relative;
+		display: table-cell;
+		width: 5%;
+		height: 100%;
+		z-index: -1;
+	}
+
+	#footer {
+		position: relative;
+		bottom: -55px;
+		left: 0px;
+		background-color: #afafaf;
+		width: 100%;
+		height: 100px;
+		padding-top: 10px;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 100;
+	}
+
+	a.hlink{ text-decoration:none;
+			color: white; 
+	}
+	a.blink{
+		text-decoration: none;
+		color: black;
+	}
+	a.blink:hover{
+		color:gray;
+	}
+	img.main{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 100%;
+		max-width: 1440px;
+		max-height: 720px;
+	}
+	img.stadium{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 100%;
+		max-width: 800px;
+		max-height: 400px;
+	}
+	img.member{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		max-width: 400px;
+		max-height: 400px;
+	}
+	div.member{
+		text-align: center;
+		align-content: center;
+		align-items: center;
+		background-color: white;
+		border-radius: 30px
+	}
+	table.member{
+		text-align: center;
+		border: 1px solid gray;
+		border-radius: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+<style>
